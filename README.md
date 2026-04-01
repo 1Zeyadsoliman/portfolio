@@ -9,7 +9,7 @@ Welcome to my professional portfolio! This project is a curated showcase of my s
 This portfolio highlights my ability to work with both core web technologies and modern frameworks:
 
 * **Portfolio Core:** HTML5, CSS3 (Custom Neon System), JavaScript (ES6+)
-* **Frameworks I Master:** [React 19](https://react.dev/), [Tailwind CSS 4](https://tailwindcss.com/)
+* **Frameworks I work with:** [React 19](https://react.dev/), [Tailwind CSS 4](https://tailwindcss.com/)
 * **Showcased Project Tech:** [Groq AI](https://groq.com/), [Vite](https://vitejs.dev/), REST APIs
 * **Libraries Used here:** [Typed.js](https://github.com/mattboldt/typed.js/), [Bootstrap 5](https://getbootstrap.com/)
 * **Design:** Figma (Minimalist & High-Contrast UI)
