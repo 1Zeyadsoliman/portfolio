@@ -57,3 +57,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 100);
     });
 });
+var typed = new Typed('#typed', {
+    strings: [
+        'FRONTEND DEVELOPER',
+        'UI/UX DESIGNER',
+        'REACT DEVELOPER',
+        'CS STUDENT'
+    ],
+    typeSpeed: 50,    
+    backSpeed: 30,    
+    backDelay: 2000,  
+    loop: true,      
+    cursorChar: '_', 
+    smartBackspace: true
+});

@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
 
@@ -35,7 +36,9 @@
         <div class="container">
             <div class="hero-content text-center">
                 <h1 class="hero-title floating">ZEYAD SOLIMAN</h1>
-                <p class="hero-subtitle neon-text-blue">FRONTEND DEVELOPER & CS STUDENT</p>
+                <p class="hero-subtitle neon-text-blue">
+                    I AM A <span id="typed"></span>
+                </p>
                 <p class="hero-description">
                     Building digital experiences that captivate and inspire
                 </p>
@@ -46,38 +49,61 @@
         </div>
     </section>
 
-    <section id="about" class="section fade-in">
-        <div class="container">
-            <h2 class="section-title neon-text">ABOUT ME</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="neon-card">
-                        <p class="lead neon-text-blue">
-                            I create digital experiences that stand out from the crowd. 
-                            Not your average developer - I bring passion and creativity to every project.
-                        </p>
-                        <p>
-                            Currently studying Computer Science while building cutting-edge web applications. 
-                            I believe in pushing boundaries and creating memorable user experiences.
-                        </p>
-                        <div class="mt-4">
-                            <h5 class="neon-text-yellow">MODERN ACADEMY (2023-2027)</h5>
-                            <p>Bachelor of Computer Science - Year 3</p>
-                        </div>
-                    </div>
+<section id="about" class="section fade-in">
+    <div class="container">
+        <h2 class="section-title neon-text">ABOUT ME</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="neon-card text-center">
+                    <div class="fs-1 mb-3">🔍</div>
+                    <h4 class="neon-text-blue">Analysis</h4>
+                    <p>Understanding requirements and defining the core problems to solve.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="neon-card text-center">
+                    <div class="fs-1 mb-3">🎨</div>
+                    <h4 class="neon-text-pink">Design</h4>
+                    <p>Creating minimalist, high-contrast UI/UX using Figma and modern aesthetics.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="neon-card text-center">
+                    <div class="fs-1 mb-3">🚀</div>
+                    <h4 class="neon-text-yellow">Code</h4>
+                    <p>Writing clean, scalable code with React, Tailwind, and optimized performance.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="projects" class="section projects-section">
         <div class="container">
             <h2 class="section-title neon-text">MY PROJECTS</h2>
             <div class="row">
-                
+
+                <div class="col-md-6 mb-4">
+    <div class="project-card neon-card h-100">
+        <h3 class="neon-text-yellow lumina-title">LUMINA ULTRA 4.0</h3>
+        <p>AI-powered Digital World Builder that generates complete business ecosystems including branding, pricing, and services in seconds.</p>
+        <div class="technologies mb-3">
+            <span class="tech-tag">React 19</span>
+            <span class="tech-tag">Groq AI</span>
+            <span class="tech-tag">Tailwind 4</span>
+            <span class="tech-tag">Vite</span>
+            <span class="tech-tag">Pexels API</span>
+        </div>
+
+        <div class="project-links">
+            <a href="https://1zeyadsoliman.github.io/my-ai-generator/" target="_blank" rel="noopener noreferrer" class="demo-btn">LIVE DEMO</a>
+            <a href="https://github.com/1Zeyadsoliman/my-ai-generator" target="_blank" rel="noopener noreferrer" class="code-btn">SOURCE CODE</a>
+        </div>
+    </div>
+</div>
                 <div class="col-md-6 mb-4">
                     <div class="project-card neon-card h-100">
-                        <h3 class="neon-text-yellow">FLAVORY RESTAURANT</h3>
+                        <h3 class="neon-text-blue">FLAVORY RESTAURANT</h3>
                         <p>Dynamic restaurant website with interactive features and stunning visuals.</p>
                         <div class="technologies mb-3">
                             <span class="tech-tag">HTML5</span>
@@ -95,7 +121,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="project-card neon-card h-100">
                         <h3 class="neon-text-yellow">Inance</h3>
-                        <p>Dynamic restaurant website with interactive features and stunning visuals.</p>
+                        <p>Dynamic website with interactive features and stunning visuals.</p>
                         <div class="technologies mb-3">
                             <span class="tech-tag">HTML5</span>
                             <span class="tech-tag">CSS3</span>
@@ -108,6 +134,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -191,7 +218,7 @@
     <footer class="footer">
         <div class="container text-center">
             <p class="mb-0 neon-text-red">
-                © 2024 ZEYAD SOLIMAN - BUILT WITH PASSION
+                © 2026 ZEYAD SOLIMAN - BUILT WITH PASSION
             </p>
         </div>
     </footer>
